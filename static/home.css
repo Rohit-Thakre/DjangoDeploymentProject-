@@ -1,6 +1,22 @@
+/* General styling */
 body {
-  background-color: #f4f4f4;
   font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
   text-align: center;
-  text-decoration: underline;
+  margin: 0;
+  padding: 20px;
+}
+/* Set max width and height for images */
+img {
+  width: 150px; /* Adjust width */
+  height: 150px; /* Adjust height */
+  object-fit: cover; /* Crop and maintain aspect ratio */
+  border-radius: 8px;
+}
+
+.gallary {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  margin-top: 50px;
 }
